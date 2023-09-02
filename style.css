@@ -1,0 +1,136 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/indir.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+.row{
+    align-items: center ;
+    display: flex;
+    column-gap: 10px;
+    height: 88%;
+    
+}
+
+.p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+nav ul li a:hover {
+    color: #000;
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+    
+}
+.desc{
+    font-size: 16px;
+    color: #fff;
+}
+.col{
+    flex-basis: 50%;
+}
+.btn{
+    padding: 12px 28px ;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid red;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+.btn:hover  {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff,;
+
+}
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    position: relative;
+    transition: ease 0.5s;
+    margin: 10px 15px;
+   
+}
+.card:hover{
+    transform: translateY(10px);
+    border-color: #fff;
+   
+}
+.card .card-head{
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+
+}
+.card .card-bottom{
+    position: absolute;
+    bottom: 26px;
+
+}
+.card.card-4{
+ background-image: url(/images/Nissan-Skyline-GT-R-R34-255\ \(1\).jpg);
+}
+.card.card-1{
+ background-image: url(/images/gtr.jpg);
+}
+.card.card-2{
+ background-image: url(/images/supra.jpg);
+}
+.card.card-3{
+ background-image: url(/images/lexus.avif);
+}
